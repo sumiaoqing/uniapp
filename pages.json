@@ -1,0 +1,98 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登陆页"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/home/index",
+			"style": {
+				"app-plus":{
+					"titleNView":{
+						"searchInput":{
+							"align":"center",
+							"backgroundColor":"#f5f4f2",
+							"borderRadius":"4px",
+							"disabled":true,
+							"placeholder":"搜索帖子",
+							"placeholderColor":"#6d6c67"
+						},
+						"buttons":[
+							{
+								"color":"#333333",
+								"colorPressed":"#d4237a",
+								"float":"right",
+								"fontSize":"20px",
+								"fontSrc":"/static/icon/iconfont.ttf",
+								"text":"\ue668"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/dynamic/index",
+			"style": {
+				"navigationBarTitleText": "动态"
+			}
+		},
+		{
+			"path": "pages/news/index",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"selectedColor":"#d4237a",
+		"color":"#cdcdcd",
+		"list":[
+			{
+				"pagePath":"pages/home/index",
+				"text":"首页",
+				"iconPath":"static/tabar/首页.png",
+				"selectedIconPath":"static/tabar/选中首页.png"		
+			},
+			{
+				"pagePath":"pages/dynamic/index",
+				"text":"动态",
+				"iconPath":"static/tabar/动态.png",
+				"selectedIconPath":"static/tabar/选中动态.png"		
+			},
+			{
+				"pagePath":"pages/news/index",
+				"text":"消息",
+				"iconPath":"static/tabar/消息.png",
+				"selectedIconPath":"static/tabar/选中消息.png"		
+			},{
+				"pagePath":"pages/mine/index",
+				"text":"我的",
+				"iconPath":"static/tabar/我的.png",
+				"selectedIconPath":"static/tabar/选中我的.png"		
+			}
+		]
+		
+	}
+}
