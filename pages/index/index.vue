@@ -15,7 +15,7 @@
 	export default {
 		data() {
 			return {
-				title: 'Hellou你'		
+				title: 'Hellou你66'		
 			}
 		},
 		onLoad() {
