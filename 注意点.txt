@@ -1,0 +1,1 @@
+ 1.使用uniapp的scroll-view的时候,遇到中文字符的话可能会自动换行,使用white-space: nowrap;
