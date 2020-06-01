@@ -12,6 +12,26 @@
 				title: 'Hellou你'		
 			}
 		},
+		mounted()
+		{
+			let socket=uni.connectSocket({
+				url:'http://192.168.1.2:3000/',
+				success()
+				{
+					console.log('socket连接成功')
+				}
+			})
+			socket.onOpen((res)=>
+			{
+				console.log('连接正常');
+				socket.send({
+					data:'uuuuu'
+				})
+			})
+			socket.onMessage((res)=>{
+				console.log(res,'收到的信息')
+			})
+		},
 		methods:{
 			login()
 			{

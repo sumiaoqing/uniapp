@@ -73,25 +73,25 @@
 			{
 				"pagePath":"pages/home/index",
 				"text":"首页",
-				"iconPath":"static/tabar/首页.png",
-				"selectedIconPath":"static/tabar/选中首页.png"		
+				"iconPath":"static/tabar/home.png",
+				"selectedIconPath":"static/tabar/s-home.png"		
 			},
 			{
 				"pagePath":"pages/dynamic/index",
 				"text":"动态",
-				"iconPath":"static/tabar/动态.png",
-				"selectedIconPath":"static/tabar/选中动态.png"		
+				"iconPath":"static/tabar/operating.png",
+				"selectedIconPath":"static/tabar/s-operating.png"		
 			},
 			{
 				"pagePath":"pages/news/index",
 				"text":"消息",
-				"iconPath":"static/tabar/消息.png",
-				"selectedIconPath":"static/tabar/选中消息.png"		
+				"iconPath":"static/tabar/news.png",
+				"selectedIconPath":"static/tabar/s-news.png"		
 			},{
 				"pagePath":"pages/mine/index",
 				"text":"我的",
-				"iconPath":"static/tabar/我的.png",
-				"selectedIconPath":"static/tabar/选中我的.png"		
+				"iconPath":"static/tabar/mine.png",
+				"selectedIconPath":"static/tabar/s-mine.png"		
 			}
 		]
 		
